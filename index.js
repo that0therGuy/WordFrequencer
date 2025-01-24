@@ -20,7 +20,7 @@ function processingData(string){
     },{})
 
     const sortedWordCount = Object.entries(wordcount)
-        .sort((a, b) => b[1] - a[1]); // Sort by value in descending order
+        .sort((a, b) => b[1] - a[1]); 
 
     return sortedWordCount;
 
